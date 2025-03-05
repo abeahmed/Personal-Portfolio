@@ -5,27 +5,27 @@ import { Button } from '@/components/ui/button';
 
 const ProjectCard = ({ gitUrl, imgUrl, title, description, technologies, link}) => {
   return (
-    <div className = "py-4 px-4 w-[350]">
-        <div className="h-[300] w-full rounded-xl relative" 
-            style={{ background: `url(${imgUrl}) center / cover` }}>
+    <div className = "py-4 px-4 w-auto bg-primary-dark rounded-xl max-w-[400px] flex flex-col">
+        <div className="py-2 px-2 h-auto w-auto rounded-xl relative" >
+            <img src={imgUrl} alt={title} className="rounded-xl"></img>
         </div>
-        <div className=" bg-primary rounded-b-xl py-6 px-4">
-            <h3 className="h3 text-heading mb-2">
-              {link ? <a href={link} target="_blank" className="hover:text-accent">{title}</a> : title}
+        <div className="rounded-b-xl py-6 px-4 flex flex-col flex-grow">
+            <h3 className="h3 mb-2">
+              {link ? <a href={link} className="border-b-2 border-accent hover:text-accent hover:border-b-4 transition-all">{title}</a> : title}
             </h3>
-            <p>{description}</p>
+            <p className="p">{description}</p>
 
-            <div className="flex flex-wrap gap-2 mt-2">
+            <div className="flex flex-wrap gap-2 mt-4 mb-10">
             {technologies.map((tech, index) => (
-              <span key={index} className="text-xs text-primary bg-accent px-2 py-1 rounded-full">
+              <span key={index} className="text-sm text-primary-dark bg-accent px-2 py-1 rounded-full">
                 {tech}
               </span>
             ))}
             </div>
 
-          <div className="flex justify-center mt-4">
+          <div className="flex justify-center mt-auto">
             <a href={gitUrl} target="_blank" rel="noopener noreferrer">
-              <Button variant = "outline" size="default" className="mb-3 text-xs">
+              <Button variant = "outline" size="default" className="text-sm">
                 <FaGithub className="mr-2 h-5 w-5" />
                 GitHub
               </Button>

@@ -5,37 +5,37 @@ import PageTransition from "@/components/PageTransition";
     {
       title: "paegex.com",
       description: "Web-based patient management application.",
-      imgUrl: "/images/paegex6.png",
-      gitUrl: "https://github.com/abeahmed/FieldFactor",
-      technologies: ["django", "python", "postgresql", "docker", "nginx", "gunicorn", "cloud"],
+      imgUrl: "/images/paegex7.png",
+      gitUrl: "https://github.com/abeahmed/paegex",
+      technologies: ["Python", "Django", "PostgreSQL", "Docker", "Nginx", "Gunicorn", "Cloud"],
       link: "https://www.paegex.com"
     },
     {
       title: "abahmed.net",
       description: "My portfolio website",
-      imgUrl: "/images/portfolio.png",
-      gitUrl: "https://github.com/abeahmed/FieldFactor",
-      technologies: ["nextjs", "tailwindcss", "framer motion", "vercel"],
+      imgUrl: "/images/portfolio3.png",
+      gitUrl: "https://github.com/abeahmed/portfolio-website",
+      technologies: ["JavaScript", "Next.js", "TailwindCSS", "Vercel"],
       link: "https://www.abahmed.net"
     },
     {
       title: "Zooplankton Abundance Predictor",
-      description: "ML model predicting zooplankton abundance.",
-      imgUrl: "/images/zooplankton.png",
+      description: "ML models predicting zooplankton abundance.",
+      imgUrl: "/images/zooplankton2.png",
       gitUrl: "https://github.com/abeahmed/Zooplankton-Abundance-Predictor",
-      technologies: ["NumPy", "Scikit-learn", "Matplotlib", "Juptyer"]
+      technologies: ["Python", "NumPy", "Scikit-learn", "Matplotlib", "Juptyer"]
     },
     {
       title: "Successorator",
       description: "Android-based task management application.",
-      imgUrl: "/images/task.png",
+      imgUrl: "/images/successorator2.png",
       gitUrl: "https://github.com/abeahmed/Successorator-Android-App",
       technologies: ["Java", "Kotlin", "Android Studio", "SQLite"]
     },
     {
       title: "Field Factor",
       description: "Data-driven analysis of home-field advantage in the NFL.",
-      imgUrl: "/images/nfl.png",
+      imgUrl: "/images/nfl2.png",
       gitUrl: "https://github.com/abeahmed/FieldFactor",
       technologies: ["Pandas", "Matplotlib", "Seaborn", "Jupyter"]
     },
@@ -44,9 +44,9 @@ import PageTransition from "@/components/PageTransition";
   const Projects = () => {
     return (
       <div className = "container mx-auto h-full max-w-screen-lg">
-        <h3 className="h3 text-center mb-8">My Projects</h3>
+        <h3 className="h3 text-center mb-10">My Projects:</h3>
 
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-20 justify-items-center">
             {projects.map((project, index) => (
                 <ProjectCard key={index}
                   title={project.title} 
