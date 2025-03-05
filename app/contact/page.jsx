@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     <div className="flex items-center justify-center mt-10">
       <div className="container mx-auto">
-      <h3 className="h3 mb-10">Contact Information:</h3>
+      <h3 className="h3 mb-20">Contact:</h3>
       <div>{info.map((item, index)=> {
         return <li key={index} className="flex items-center gap-4 sm:gap-6 mb-5">
           <div className = "text-accent">{item.icon}</div>
