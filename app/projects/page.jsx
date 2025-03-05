@@ -43,10 +43,10 @@ import PageTransition from "@/components/PageTransition";
 
   const Projects = () => {
     return (
-      <div className = "container mx-auto h-full max-w-screen-md">
+      <div className = "container mx-auto h-full max-w-screen-lg">
         <h3 className="h3 text-center mb-8">My Projects</h3>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
             {projects.map((project, index) => (
                 <ProjectCard key={index}
                   title={project.title} 

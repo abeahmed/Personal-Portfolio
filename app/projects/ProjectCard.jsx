@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button';
 
 const ProjectCard = ({ gitUrl, imgUrl, title, description, technologies, link}) => {
   return (
-    <div className = "py-4 px-4 w-[250]">
-        <div className="h-40 w-full rounded-xl relative" 
+    <div className = "py-4 px-4 w-[350]">
+        <div className="h-[300] w-full rounded-xl relative" 
             style={{ background: `url(${imgUrl}) center / cover` }}>
         </div>
         <div className=" bg-primary rounded-b-xl py-6 px-4">
