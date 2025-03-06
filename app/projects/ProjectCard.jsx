@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 const ProjectCard = ({ gitUrl, imgUrl, title, description, technologies, link}) => {
   return (
     <div className = "py-4 px-4 w-auto bg-primary-dark rounded-xl max-w-[400px] flex flex-col">
-        <div className="py-2 px-2 h-auto w-auto rounded-xl relative" >
+        <div className="h-auto w-auto rounded-xl relative" >
             <img src={imgUrl} alt={title} className="rounded-xl"></img>
         </div>
         <div className="rounded-b-xl py-6 px-4 flex flex-col flex-grow">
