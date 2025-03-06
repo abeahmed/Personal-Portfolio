@@ -8,7 +8,7 @@ import PageTransition from "@/components/PageTransition";
       imgUrl: "/images/paegex.png",
       gitUrl: "https://github.com/abeahmed/paegex",
       technologies: ["Python", "Django", "PostgreSQL", "Docker", "Nginx", "Gunicorn", "Cloud"],
-      link: "https://www.paegex.com"
+      link: "https://paegex.com"
     },
     {
       title: "abahmed.net",
@@ -16,7 +16,7 @@ import PageTransition from "@/components/PageTransition";
       imgUrl: "/images/portfolio.png",
       gitUrl: "https://github.com/abeahmed/portfolio-website",
       technologies: ["JavaScript", "Next.js", "TailwindCSS", "Vercel"],
-      link: "https://www.abahmed.net"
+      link: "/"
     },
     {
       title: "Zooplankton Abundance Predictor",
