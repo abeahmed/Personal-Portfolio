@@ -6,7 +6,7 @@ import PageTransition from "@/components/PageTransition";
       title: "paegex.com",
       description: "Web-based patient management application.",
       imgUrl: "/images/paegex.png",
-      gitUrl: "https://github.com/abeahmed/paegex",
+      gitUrl: "https://github.com/abeahmed/paegex.com",
       technologies: ["Python", "Django", "PostgreSQL", "Docker", "Nginx", "Gunicorn", "Cloud"],
       link: "https://paegex.com"
     },
