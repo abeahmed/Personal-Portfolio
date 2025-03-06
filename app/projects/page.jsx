@@ -11,7 +11,7 @@ import PageTransition from "@/components/PageTransition";
       link: "https://paegex.com"
     },
     {
-      title: "abahmed.net",
+      title: "abahmed.tech",
       description: "My portfolio website",
       imgUrl: "/images/portfolio.png",
       gitUrl: "https://github.com/abeahmed/portfolio-website",
