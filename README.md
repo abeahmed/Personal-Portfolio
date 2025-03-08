@@ -1,4 +1,4 @@
-# 💻 Abdullah's Portfolio | [abahmed.tech](https://www.abahmed.tech)
+# 💻 Abdullah's Portfolio | [abahmed.tech](https://abahmed.tech)
 
 Personal Portfolio Website showcasing my projects and skills. Built with modern web technologies.
 
