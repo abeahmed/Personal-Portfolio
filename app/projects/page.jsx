@@ -3,7 +3,7 @@ import PageTransition from "@/components/PageTransition";
 
   const projects = [
     {
-      title: "Confra.app",
+      title: "Confra",
       description: "Event management and analytics platform, streamlining event hosting and attendee tracking for organizers.",
       imgUrl: "/images/Confra.png",
       gitUrl: "https://github.com/abeahmed/Confra",
@@ -50,8 +50,7 @@ import PageTransition from "@/components/PageTransition";
 
   const Projects = () => {
     return (
-      <div className = "container mx-auto h-full max-w-screen-lg">
-
+      <div className = "container mx-auto h-full max-w-screen-lg py-8">
 
           <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 justify-items-center">
             {projects.map((project, index) => (

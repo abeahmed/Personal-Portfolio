@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 const ProjectCard = ({ gitUrl, imgUrl, title, description, technologies, link}) => {
   const isSameSite = link === "/"
   return (
-    <div className = "group py-3 px-3 w-auto bg-primary-dark rounded-xl max-w-[500px] flex flex-col shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+    <div className = "group py-3 px-3 w-auto bg-primary-dark rounded-xl max-w-[400px] flex flex-col shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
         <div className="relative w-full rounded-xl overflow-hidden" >
             <img src={imgUrl} alt={title} className="rounded-xl w-full aspect-[4/3] object-cover"></img>
         </div>
