@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Home = () => {
   return (
-    <div className="container mx-auto h-full">
+    <div className="container mx-auto h-full max-w-screen-lg">
       <div className="flex flex-col xl:flex-row items-left justify-between xl:pt8 xl:pb-24">
         <div className = "text-left xl:text-left">
           <span className="text-accent">Hi, I'm</span>
