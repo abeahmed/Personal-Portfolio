@@ -3,7 +3,7 @@ import PageTransition from "@/components/PageTransition";
 
   const projects = [
     {
-      title: "Confra",
+      title: "confra.app",
       description: "Event management and analytics platform, streamlining event hosting and attendee tracking for organizers.",
       imgUrl: "/images/Confra.png",
       gitUrl: "https://github.com/abeahmed/Confra",
