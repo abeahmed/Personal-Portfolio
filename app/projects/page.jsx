@@ -8,6 +8,7 @@ import PageTransition from "@/components/PageTransition";
       imgUrl: "/images/Confra.png",
       gitUrl: "https://github.com/abeahmed/Confra",
       technologies: ["Node.js", "MongoDB", "Express.js", "React", "TailwindCSS", "Axios"],
+      link: "https://confra.app"
     },
     {
       title: "paegex.com",
