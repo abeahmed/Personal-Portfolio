@@ -3,20 +3,18 @@ import PageTransition from "@/components/PageTransition";
 
   const projects = [
     {
-      title: "confra.app",
+      title: "Confra",
       description: "Event management and analytics platform, streamlining event hosting and attendee tracking for organizers.",
       imgUrl: "/images/Confra.png",
       gitUrl: "https://github.com/abeahmed/Confra",
       technologies: ["Node.js", "MongoDB", "Express.js", "React", "TailwindCSS", "Axios"],
-      link: "https://confra.app"
     },
     {
-      title: "paegex.com",
+      title: "Paegex",
       description: "Patient management system, with secure data storage, and simplified appointment scheduling for healthcare providers.",
       imgUrl: "/images/paegex.png",
       gitUrl: "https://github.com/abeahmed/paegex.com",
       technologies: ["Python", "Django", "PostgreSQL", "Docker", "Nginx", "Gunicorn", "Cloud"],
-      link: "https://paegex.com"
     },
     {
       title: "Zooplankton Abundance Predictor",
@@ -26,7 +24,7 @@ import PageTransition from "@/components/PageTransition";
       technologies: ["Python", "NumPy", "Scikit-learn", "Matplotlib", "Juptyer"]
     },
     {
-      title: "abahmed.tech",
+      title: "Portfolio Website",
       description: "Responsive developer portfolio built with Next.js, featuring optimized performance and modern UI design patterns",
       imgUrl: "/images/portfolio.png",
       gitUrl: "https://github.com/abeahmed/portfolio-website",
