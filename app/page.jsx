@@ -10,7 +10,7 @@ const Home = () => {
         <div className = "text-left xl:text-left">
           <span className="text-accent">Hi, I'm</span>
           <h1 className="h1 mb-3">Abdullah Ahmed<span className="text-accent">.</span></h1>
-          <h2 className="h2">Software Developer</h2>
+          <h2 className="h2">Software Engineer</h2>
           <p className="p max-w-[400px] mb-20 mt-10">Passionate about building impactful software and solving problems with code.</p>
           <Link href="/projects"> 
             <Button variant = "outline">Check out my work</Button>

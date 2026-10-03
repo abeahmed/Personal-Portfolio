@@ -9,12 +9,7 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    content: "(+44) 744 513 5785",
-  },
-  {
-    icon: <FaMapMarkerAlt />,
-    title: "Location",
-    content: "Cambridge, United Kingdom",
+    content: "(+44) 7424960995",
   },
   {
     icon: <FaGithub />,
