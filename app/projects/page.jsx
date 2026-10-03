@@ -15,36 +15,7 @@ import PageTransition from "@/components/PageTransition";
       imgUrl: "/images/paegex.png",
       gitUrl: "https://github.com/abeahmed/paegex.com",
       technologies: ["Python", "Django", "PostgreSQL", "Docker", "Nginx", "Gunicorn", "Cloud"],
-    },
-    {
-      title: "Zooplankton Abundance Predictor",
-      description: "Machine learning models predicting zooplankton abundance, and their impact on ecosystem health.",
-      imgUrl: "/images/zooplankton.png",
-      gitUrl: "https://github.com/abeahmed/Zooplankton-Abundance-Predictor",
-      technologies: ["Python", "NumPy", "Scikit-learn", "Matplotlib", "Juptyer"]
-    },
-    {
-      title: "Portfolio Website",
-      description: "Responsive developer portfolio built with Next.js, featuring optimized performance and modern UI design patterns",
-      imgUrl: "/images/portfolio.png",
-      gitUrl: "https://github.com/abeahmed/portfolio-website",
-      technologies: ["JavaScript", "Next.js", "TailwindCSS", "Vercel"],
-      link: "/"
-    },
-    {
-      title: "Successorator",
-      description: "Native Android productivity app with SQLite integration, designed to streamline daily task management and goal tracking",
-      imgUrl: "/images/successorator.png",
-      gitUrl: "https://github.com/abeahmed/Successorator-Android-App",
-      technologies: ["Java", "Kotlin", "Android Studio", "SQLite"]
-    },
-    {
-      title: "Field Factor",
-      description: "Statistical analysis of NFL home-field advantage using Python data science tools to identify key performance factors.",
-      imgUrl: "/images/nfl.png",
-      gitUrl: "https://github.com/abeahmed/FieldFactor",
-      technologies: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter"]
-    },
+    }
   ];
 
   const Projects = () => {
