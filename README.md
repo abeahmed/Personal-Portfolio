@@ -1,4 +1,4 @@
-# 💻 Abdullah's Portfolio | [abahmed.tech](https://abahmed.vercel.app)
+# 💻 Abdullah's Portfolio | [abahmed.vercel.app](https://abahmed.vercel.app)
 
 Personal Portfolio Website showcasing my projects and skills. Built with modern web technologies.
 
